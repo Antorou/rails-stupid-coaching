@@ -1,0 +1,13 @@
+<h1 class="text-center mt-4">Stupid Coaching</h1>
+
+<div class="container mt-5">
+  <div class="card shadow p-4">
+    <p class="question fs-4 text-primary mb-4"><strong>Question:</strong></p>
+    <p class="fs-5"><%= @question %></p>
+    <h2 class="answer-title h5 text-success">Answer</h2>
+    <p class="answer fs-5"><%= @answer %></p>
+  </div>
+  <div class="text-center mt-4">
+      <%= link_to "Ask another question", ask_path, class: "btn btn-primary" %>
+    </div>
+</div>
